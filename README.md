@@ -1,6 +1,5 @@
-# Mpesa-on-Frappe-Cloud
 
-# Frappe Cloud M-Pesa Express Integration
+# M-pesa Express Payments on Frappe Cloud
 
 ## Overview
 
@@ -12,19 +11,19 @@ The Frappe Cloud M-Pesa Express integration enables seamless payment processing 
 
 ### Eligibility
 
-Only verified **Frappe Partners** can set up M-Pesa Express as a payment method. Each partner must have:
+Only verified **Frappe Partners** can set up M-Pesa Express as a payment method. This means as a partner you need to contact Frappe and they will enable your account to set up M-Pesa Express.  Each partner must have:
 
 -   A registered **Daraja M-Pesa** account.
     
 -   A valid **Paybill or Till Number**.
     
--   The appropriate credentials obtained from Safaricom's Daraja portal.
+-   The appropriate credentials were obtained from Safaricom's Daraja portal.
     
 ----------
 
 ### Steps to Set Up M-Pesa Express
 
-1.  **Navigate to the "Partnership" Section** on your Frappe Cloud dashboard(Only visisble to partners).
+1.  **Navigate to the "Partnership" Section** on your Frappe Cloud dashboard(Only visible to partners).
  ![image (33)](https://github.com/user-attachments/assets/5a6d0b07-6699-44a1-9500-1918e9833e34)
   
     
