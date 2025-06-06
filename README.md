@@ -187,6 +187,9 @@ This provides up-to-date exchange rates and is publicly accessible via CDN.
 
 ----------
 
+### Simple Flow of what happens
+![Screenshot 2025-06-06 at 16 32 21](https://github.com/user-attachments/assets/08da3ab4-724d-4aee-8e3b-613add14ef38)
+
 ## Summary
 
 With the M-Pesa Express integration, Frappe Partners can offer fast and localized payment options to their Kenyan customers. From setup to payout and invoicing, the entire process is streamlined to support both business operations and compliance.
