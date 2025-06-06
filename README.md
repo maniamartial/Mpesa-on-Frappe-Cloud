@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Frappe Cloud M-Pesa Express integration enables seamless payment processing for users in Kenya via M-Pesa, one of the most widely used mobile money platforms in the region. This integration allows partners to receive payments and users to add credits effortlessly through M-Pesa Express.
+The Frappe Cloud M-Pesa Express integration enables seamless payment processing for users in Kenya via M-Pesa. One of the most widely used mobile money platforms in the region. This integration allows partners to receive payments and users to add credits effortlessly through M-Pesa Express.
 
 ----------
 
@@ -109,7 +109,7 @@ This section allows partners to reconcile and submit the collected amounts to Fr
         
     -   Enter **Start Date** and **End Date**.
         
-    -   Click **Fetch Transactions**.
+    -   Click **Fetch Transactions**(it fetches transactions from the press, a backend doctype called Payment Partner Transactions).
          ![image (35)](https://github.com/user-attachments/assets/1da4814d-429e-4254-a766-78b4cb7dd3ab)
 
         
@@ -136,7 +136,9 @@ Users with Kenyan-registered sites will see M-Pesa as a payment option by defaul
 
 ### Steps to Add Credit Using M-Pesa:
 
-1.  Navigate to **Billing > Add Credit**.
+1.  Navigate to **Billing > Add Credit > Overview**.
+   ![image (2)](https://github.com/user-attachments/assets/6f9ffc50-328f-4a8d-99ee-8bf45c46b36d)
+
     
 2.  In the dialog:
     
@@ -154,16 +156,16 @@ Users with Kenyan-registered sites will see M-Pesa as a payment option by defaul
    ![image (36)](https://github.com/user-attachments/assets/62deaf03-2199-4ae1-b830-bbcbbfcbea49)
  
             
-3.  Tax and total payable amount (including VAT) are auto-calculated.
+4.  Tax and total payable amount (including VAT) are auto-calculated.
     
-4.  Click **Make Payment via M-Pesa**.
+5.  Click **Make Payment via M-Pesa**.
     
 
 > 💡 This will initiate an **STK Push** to your phone. Confirm the payment using your M-Pesa PIN.
 
 After successful payment:
 
--   An invoice is generated on the **Partner’s site**.
+-   An invoice is generated on the **Partner’s site** based on credentials and details setup on the Payment Gateway section.
     
 -   The transaction is recorded on **Frappe Cloud**.
     
@@ -177,7 +179,7 @@ After successful payment:
 
 ## 3. Exchange Rate API
 
-To convert USD to KES, the system uses the [Fawaz Currency API](https://github.com/fawazahmed0/currency-api):
+To convert USD to KES, the system uses the [Fawaz Currency API](https://github.com/fawazahmed0/exchange-api):
 
 `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies` 
 
