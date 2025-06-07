@@ -137,7 +137,7 @@ Users with Kenyan-registered sites will see M-Pesa as a payment option by defaul
 ### Steps to Add Credit Using M-Pesa:
 
 1.  Navigate to **Billing > Add Credit > Overview**.
-   ![image (2)](https://github.com/user-attachments/assets/6f9ffc50-328f-4a8d-99ee-8bf45c46b36d)
+![image (37)](https://github.com/user-attachments/assets/e9fec037-e6e1-41fd-91c0-11a790043657)
 
     
 2.  In the dialog:
